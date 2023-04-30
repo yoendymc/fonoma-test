@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <main
+    class="main"
+  >
+    <h1
+      class="sc-bgqQcB liJrHr"
+    >
+      Exchange rate calculator
+    </h1>
+    <div
+      class="sc-kcuKUB hWFrVr"
+    >
+      <form
+        class="sc-gxYJeL ewyTru"
+      >
+        <div
+          class="sc-kPTPQs cQxWOA"
+        >
+          <div
+            class="sc-iVCKna bUIsyz"
+          >
+            <label
+              class="sc-fFGjHI gkkySY"
+              for="amount"
+            >
+              Amount
+            </label>
+            <input
+              class="sc-ewnqHT elHUAt"
+              name="amount"
+              pattern="[0-9]+([,\\.][0-9]+)?"
+            />
+          </div>
+          <div
+            class="sc-iVCKna bUIsyz"
+          >
+            <label
+              class="sc-fFGjHI gkkySY"
+              for="from"
+            >
+              From
+            </label>
+            <select
+              class="sc-kuWgmH gySbjW"
+              name="from"
+            />
+          </div>
+          <div
+            class="sc-iVCKna bUIsyz"
+          >
+            <label
+              class="sc-fFGjHI gkkySY"
+              for="to"
+            >
+              To
+            </label>
+            <select
+              class="sc-kuWgmH gySbjW"
+              name="to"
+            />
+          </div>
+        </div>
+        <button
+          class="sc-dcrmVg ipPTqM"
+          type="submit"
+        >
+          Convert
+        </button>
+      </form>
+    </div>
+  </main>
+</div>
+`;
